@@ -68,3 +68,27 @@
     text-transform: uppercase;
     color: var(--cor-texto);
 }
+
+@media screen and (max-width: 870px) {
+    .apresentacao__titulo {
+        padding: 0 5%;
+        font-size: 1.8rem;
+    }
+
+    .apresentacao__intro {
+        flex-wrap: wrap;
+        padding: 0 5%;
+    }
+
+    .intro__projeto {
+        width: 100%;
+        margin: 5% 0;
+        padding: 6%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .apresentacao__titulo {
+        font-size: 1.4rem;
+    }
+}
