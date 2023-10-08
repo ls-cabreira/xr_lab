@@ -1,0 +1,24 @@
+@import url(/styles/header.css);
+@import url(/styles/intro.css);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+:root {
+    --cor-primaria: #00030c;
+    --cor-saude: #039cc2;
+    --cor-tour: #a70a0a;
+    --cor-bpm: #d9e70a;
+    --cor-lab: #db880a;
+    --cor-texto: #fafafa;
+    --fonte-principal: 'Quicksand', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-principal);
+}

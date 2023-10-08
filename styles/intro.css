@@ -1,0 +1,70 @@
+.apresentacao__titulo {
+    font-size: 2.0rem;
+    margin-bottom: 5%;
+    color: var(--cor-texto);
+    text-align: center;
+    border-bottom: 3px solid var(--cor-lab);
+}
+
+
+.apresentacao__intro {
+    display: flex;
+    color: var(--cor-texto);
+    gap: 3%;
+    padding: 0 2%;
+}
+
+.intro__projeto {
+    text-align: center;
+    width: 33%;
+    padding: 4%;
+    border-radius: 16px;
+    transition: 1s;
+}
+
+.intro__projeto:hover {
+    transform: translateY(-20px);
+}
+
+.border-blue {
+    border: 2px solid #039cc2;
+}
+
+.border-red {
+    border: 2px solid #a70a0a;
+}
+
+.border-yellow {
+    border: 2px solid #d9e70a;
+}
+
+.projeto__titulo {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.projeto__texto {
+    margin-bottom: 10%;
+}
+
+.blue-italic {
+    color: var(--cor-saude);
+}
+
+.red-italic {
+    color: var(--cor-tour);
+}
+
+.yellow-italic {
+    color: var(--cor-bpm);
+}
+
+.projeto__ancora {
+    text-decoration: none;
+    width: 40%;
+    background-color: transparent;
+    padding: 3% 10%;
+    border-radius: 16px;
+    text-transform: uppercase;
+    color: var(--cor-texto);
+}
